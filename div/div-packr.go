@@ -8,5 +8,6 @@ import "github.com/gobuffalo/packr"
 // and any other packr generated files.
 func init() {
 		packr.PackJSONBytes("./templates", "blue.html", "\"PGRpdj4KICAgIHt7IC5CYXIgfX08YnIvPgogICAgPE5ld2RpdiBCYXI9Int7IC5CYXIgfX0iPjwvTmV3ZGl2Pjxici8+CiAgICA8aW5wdXQgb25jaGFuZ2U9Ik9uSW5wdXRDaGFuZ2UiIC8+CiAgICAKIDwvZGl2Pg==\"")
+		packr.PackJSONBytes("./templates", "body.html", "\"PGJvZHk+CiAgICA8ZGl2PgogICAgPHA+e3sgLkJhciB9fTwvcD5CbHVlPGJyLz4KICAgIDxOZXdkaXYgQmFyPSJ7eyAuQmFyIH19Ij48L05ld2Rpdj48YnIvPgogICAgPGlucHV0IG9uY2hhbmdlPSJPbklucHV0Q2hhbmdlIiAvPgogICAgCiA8L2Rpdj4KIDwvYm9keT4=\"")
 		packr.PackJSONBytes("./templates", "newdiv.html", "\"PGRpdj5CYXIgPSB7eyAuQmFyIH19PC9kaXY+\"")
 }
