@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	c := &div.Newdiv{}
+	c := &div.Blue{}
 	c.Bar = "Bar"
 	_, err := markup.MountBody(c)
 	if err != nil {

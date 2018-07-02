@@ -1,6 +1,8 @@
 package div
 
 import (
+	"fmt"
+
 	"github.com/bketelsen/factor/markup"
 	"github.com/gobuffalo/packr"
 )
@@ -13,11 +15,14 @@ type Newdiv struct {
 
 func (d *Newdiv) Render() string {
 	return box.String("newdiv.html")
-
 }
 
 type Blue struct {
 	Bar string
+}
+
+func (d *Blue) OnInputChange(e *markup.Event) {
+	fmt.Println("OnInputChange:", e)
 }
 
 func (d *Blue) Render() string {
